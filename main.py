@@ -2,6 +2,7 @@
 This script takes an m3u file (a music playlist) and converts it into a txt file with song artist and title.
 Original purpose was to create Spotify playlists from m3u playlists via a webapp like: https://soundiiz.com/tutorial/import-text-to-spotify.
 You'll need to enter set variables for m3u file, txt file, and music directory at the bottom.
+You'll also need to edit the RegEx on line 45 to match your own m3u directory info.
 """
 
 import re
